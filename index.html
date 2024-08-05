@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <A id="logo">amazon.in</A>
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="doclisst/index.html">Services</a>
+            <a href="#contact">Contact</a>
+            <input type placeholder="serch amazon.in">
+            <button>
+                search
+            </button>
+        </div>
+    </header>        <!--end of header section-->
+
+                    <!-- start hero section -->
+
+    <div class="container">
+        <h1>Select a City</h1>
+        <ul class="city-list">
+            <li data-city="new-york">New York</li>
+            <li data-city="los-angeles">Los Angeles</li>
+            <li data-city="chicago">Chicago</li>
+            <li data-city="houston">Houston</li>
+        </ul>
+
+        <h2>Departments in <span id="selected-city">Select a city</span></h2>
+        <ul id="department-list" class="department-list">
+            <li class="new-york">Cardiology</li>
+            <li class="new-york">Dermatology</li>
+            <li class="los-angeles">Orthopedics</li>
+            <li class="los-angeles">Neurology</li>
+            <li class="chicago">Pediatrics</li>
+            <li class="chicago">Ophthalmology</li>
+            <li class="houston">General Practice</li>
+            <li class="houston">Gynecology</li>
+        </ul>
+
+        <h2>Doctors in <span id="selected-department">Select a department</span></h2>
+        <div id="doctor-list" class="doctor-list">
+            <div class="doctor-card new-york cardiology">
+                <img src="doctor1.jpg" alt="Dr. John Smith">
+                <p>Dr. John Smith</p>
+            </div>
+            <div class="doctor-card new-york dermatology">
+                <img src="doctor2.jpg" alt="Dr. Jane Doe">
+                <p>Dr. Jane Doe</p>
+            </div>
+            <div class="doctor-card los-angeles orthopedics">
+                <img src="doctor3.jpg" alt="Dr. Alex Brown">
+                <p>Dr. Alex Brown</p>
+            </div>
+            <div class="doctor-card los-angeles neurology">
+                <img src="doctor4.jpg" alt="Dr. Lisa White">
+                <p>Dr. Lisa White</p>
+            </div>
+            <div class="doctor-card chicago pediatrics">
+                <img src="doctor5.jpg" alt="Dr. Michael Green">
+                <p>Dr. Michael Green</p>
+            </div>
+            <div class="doctor-card chicago ophthalmology">
+                <img src="doctor6.jpg" alt="Dr. Nancy Black">
+                <p>Dr. Nancy Black</p>
+            </div>
+            <div class="doctor-card houston general-practice">
+                <img src="doctor7.jpg" alt="Dr. Chris Blue">
+                <p>Dr. Chris Blue</p>
+            </div>
+            <div class="doctor-card houston gynecology">
+                <img src="doctor8.jpg" alt="Dr. Karen Red">
+                <p>Dr. Karen Red</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="stripts.js"></script> 
+
+                            <!--end hero section-->
+
+                            <!--start footer section-->
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: +123-456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 My Website | Designed by Me
+        </div>
+    </footer>
+</body>
+</html>
